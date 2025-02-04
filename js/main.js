@@ -21,11 +21,18 @@ const wrapper = document.getElementById('wrapper');
 //individuare l'area dove verranno presentati gli errori
 const errors = document.getElementById('errors');
 
+const modalBox = document.getElementById('modal-box')
+const modalContent = document.getElementById('modal-content')
+const modalText = document.getElementById('text')
+
 //creare un contatore per calcolare le coppie errate e impostarlo a 0
 let wrongImg = 0;
 
+let countImg = 0
+
 //creare un array vuoto dove verrano inserite le coppie per il confronto
 let selectedCards = []
+let rightCards = []
 
 //mescolare in ordine casuale le carte
 let sortedCards = images.sort(() => Math.random() - 0.5 );
@@ -60,6 +67,9 @@ for (let i = 0; i < sortedCards.length; i++) {
                 setTimeout(checkMatch, 800); //impostare una funzione che confronti le due carte per 0.8 secondi
             }
         }
+
+        console.log('Le carte da confrontare sono', selectedCards)
+        console.log('Le carte giuste sono', rightCards)
        
     })
 
@@ -67,7 +77,6 @@ for (let i = 0; i < sortedCards.length; i++) {
     card.appendChild(backImg);
     card.appendChild(frontImg);
     wrapper.appendChild(card);
-    
 
 }
 
@@ -86,11 +95,34 @@ function checkMatch() {
        
         wrongImg++ //incrementare il contatore
         errors.innerHTML = `Errori: ${wrongImg}` //stampare il numero di errori
+
+        if(wrongImg > 5){
+            modalBox.style.display = 'flex'
+            modalContent.style.display = 'flex'
+            modalContent.style.transitionY = '0.5s ease-in'
+            modalText.innerHTML = 'Game Over'
+        }
         
+    } else if (first.frontImg.src === second.frontImg.src){
+
+        for (let i = 0; i < selectedCards.length; i++) {
+            
+            rightCards.push(selectedCards[i])
+        }
+
+        if (rightCards.length === 12) {
+            modalBox.style.display = 'flex'
+            modalContent.style.display = 'flex'
+            modalContent.style.transitionY = '0.4s ease'
+            modalText.innerHTML = 'Hai vinto'
+        }
+
     }
 
     selectedCards = [] //svuotare l'array dopo il confronto; 
 }
 
-
+function reloadGame(){
+    window.location.reload()
+}
 

@@ -11,13 +11,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(42, 42, 42);
 }
 
 .container{
     display: flex;
     margin: 0 auto;
     width: 60%;
-    background-color: dodgerblue;
+    background-color: #3535EC;
     height: 100%;
     border-radius: 10px;
 }
@@ -85,5 +86,42 @@ p{
 h1{
     font-size: 50px;
     font-weight: 900;
+}
+
+/* proprietà modale */
+
+#modal-box{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#modal-content{
+    background-color: rgb(41, 41, 41);
+    margin: 4rem auto;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 500px;
+    height: 300px;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px
+}
+
+/* pulsante reload */
+
+#reset-btn{
+    padding: 0.8rem 1.5rem;
+    background-color: green;
+    cursor:pointer;
 }
 
