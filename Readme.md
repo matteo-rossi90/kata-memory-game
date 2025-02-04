@@ -19,3 +19,4 @@ Questo piccolo progetto è stato realizzato attraverso HTML, CSS, JavaScript pur
 2) **inserimento dinamico delle immagini**. Una volta testate le proporzioni e gli stili grafici, è stato creato un array con le cards includendo già in ordine casuale le coppie delle stesse immagini; le cards si rimescolano all'avvio di ogni sessione
 3) **mostrare le immagini al click**. Le card sono state abilitate a mostrare le immagini nascoste al click del giocatore e a nascondere le immagini del retro, aggiungendo delle classi che mostrassero e nascondessero alternativamente gli elementi selezionati
 4) **confrontare le immagini cliccate**. Una volta cliccate, le due immagini vengono confrontate: se corrispondono, restano scoperte, altrimenti si nascondono di nuovo dopo essersi mostrate brevemente
+5) **conteggio degli errori**. Se il giocatore clicca su due carte che non corrispondono, il sistema segna un errore
