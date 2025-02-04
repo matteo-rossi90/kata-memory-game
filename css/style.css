@@ -27,7 +27,8 @@ main{
     width: calc(100% - 300px)
 }
 
-.wrapper{
+#wrapper,
+#board{
     display:flex;
     flex-wrap:wrap;
     gap: 2px;
