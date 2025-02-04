@@ -16,4 +16,4 @@ L'applicazione consiste nel riprodurre un gioco molto popolare, in cui il giocat
 Questo piccolo progetto è stato realizzato attraverso HTML, CSS, JavaScript puro, seguendo queste fasi:
 
 1) **creazione del layout statico**. E' stato realizzato il template grafico in modo statico per osservare e testare le proporzioni e gli stili, comprese le caselle di gioco con le immagini da mostrare al click del giocatore, che sono state nascoste temporaneamente
-2) **inserimento dinamico delle immagini**
+2) **inserimento dinamico delle immagini**. Una volta testate le proporzioni e gli stili grafici, è stato creato un array con le cards includendo già in ordine casuale le coppie delle stesse immagini
