@@ -31,7 +31,6 @@ main{
 #board{
     display:flex;
     flex-wrap:wrap;
-    gap: 2px;
     padding: 1rem;
 }
 
@@ -49,18 +48,28 @@ p{
 }
 
 .cards{
+    display: flex;
+    justify-content: center;
     position: relative;
-    /* background-color: yellow; */
-    width: calc( 100% / 4 - 4px);
+    width: calc( 100% / 4);
+    height: calc( 100% / 3);
     cursor: pointer;
 }
 
+/* impostato su none per nascondere le immagini */
 .clickable{
+    display: none; 
+
+}
+
+/* impostato su block per mostrare al click le immagini */
+.show-image{
+    display: block;
+}
+
+/* nascondi il retro della card quando cliccata */
+.hide-back{
     display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .cards img{

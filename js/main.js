@@ -29,10 +29,16 @@ for (let i = 0; i < sortedCards.length; i++) {
     backImg.src = "./images/back.png";
     backImg.alt = `image-back-${i}`;
 
+
     let frontImg = document.createElement('img');
-    frontImg.src = `./images/${images[i]}`;
+    frontImg.src = `./images/${sortedCards[i]}`;
     frontImg.alt = `image-${i}`;
     frontImg.classList.add('clickable');
+
+    card.addEventListener('click', () => {
+        backImg.classList.add('hide-back'); 
+        frontImg.classList.add('show-image'); 
+    })
 
     card.appendChild(backImg);
     card.appendChild(frontImg);
@@ -41,11 +47,4 @@ for (let i = 0; i < sortedCards.length; i++) {
     
 }
 
-
-function showImage(i) {
-    const idImage = document.querySelector(`image-${i}`)
-
-    console.log(idImage)
-    
-}
 

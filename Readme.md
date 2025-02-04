@@ -17,3 +17,4 @@ Questo piccolo progetto è stato realizzato attraverso HTML, CSS, JavaScript pur
 
 1) **creazione del layout statico**. E' stato realizzato il template grafico in modo statico per osservare e testare le proporzioni e gli stili, comprese le caselle di gioco con le immagini da mostrare al click del giocatore, che sono state nascoste temporaneamente
 2) **inserimento dinamico delle immagini**. Una volta testate le proporzioni e gli stili grafici, è stato creato un array con le cards includendo già in ordine casuale le coppie delle stesse immagini
+3) **mostrare le immagini al click**. Le card sono state abilitate a mostrare le immagini nascoste al click del giocatore e a nascondere le immagini del retro, aggiungendo delle classi che mostrassero e nascondessero alternativamente gli elementi selezionati
