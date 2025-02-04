@@ -114,6 +114,7 @@ h1{
     display:none;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: 70px
 }
 
@@ -123,5 +124,75 @@ h1{
     padding: 0.8rem 1.5rem;
     background-color: green;
     cursor:pointer;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: 0.3s ease;
 }
+
+#reset-btn:hover{
+    background-color: darkgreen;
+}
+
+@keyframes fadeBox {
+
+    from {
+        opacity: 0;
+        transform: translateY(-30%)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes colorRotate {
+    from {
+        color: rgb(64, 11, 144);
+    }
+
+    10% {
+        color: #9000ff;
+    }
+
+    20% {
+        color: #0073ff;
+    }
+
+    30% {
+        color: #15a4a7;
+    }
+
+    40% {
+        color: #20be45;
+    }
+
+    50% {
+        color: #fff566;
+    }
+
+    60% {
+        color: #f4ac28;
+    }
+
+    70% {
+        color: #f48028;
+    }
+
+    80% {
+        color: #f44a28;
+    }
+
+    90% {
+        color: #f42828;
+    }
+
+    100% {
+        color: #f4287d;
+    }
+}
+
+
+
 

@@ -96,10 +96,10 @@ function checkMatch() {
         wrongImg++ //incrementare il contatore
         errors.innerHTML = `Errori: ${wrongImg}` //stampare il numero di errori
 
-        if(wrongImg > 5){
+        if(wrongImg > 10){
             modalBox.style.display = 'flex'
             modalContent.style.display = 'flex'
-            modalContent.style.transitionY = '0.5s ease-in'
+            modalContent.style.animation = 'fadeBox 0.5s'
             modalText.innerHTML = 'Game Over'
         }
         
@@ -113,8 +113,9 @@ function checkMatch() {
         if (rightCards.length === 12) {
             modalBox.style.display = 'flex'
             modalContent.style.display = 'flex'
-            modalContent.style.transitionY = '0.4s ease'
+            modalContent.style.animation = 'fadeBox 0.5s'
             modalText.innerHTML = 'Hai vinto'
+            modalText.style.animation = 'colorRotate 0.8s infinite'
         }
 
     }
