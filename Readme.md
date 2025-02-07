@@ -2,6 +2,7 @@
 
 L'applicazione consiste nel riprodurre un gioco molto popolare, in cui il giocatore deve trovare le coppie delle immagini ricordandosi della loro esatta posizione e senza fare troppi errori. E' molto usato per tenere allenata la memoria.
 
+![Screenshot (177)](https://github.com/user-attachments/assets/3db3c377-18bc-4048-9a75-cc8178ecc545)
 
 
 **Regole del gioco:**
