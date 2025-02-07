@@ -59,8 +59,8 @@ for (let i = 0; i < sortedCards.length; i++) {
 
         //se l'array è vuoto
         if (selectedCards.length < 2 && !selectedCards.includes(card)) {
-            backImg.classList.add('hide-back'); // mostrare solo il retro della cards
-            frontImg.classList.remove('clickable'); //nascondere l'immagine principale
+            backImg.classList.add('hide-back'); // nascondi solo il retro della cards
+            frontImg.classList.remove('clickable'); //mostra l'immagine principale
             selectedCards.push({ card, frontImg }); //inserire nel nuovo array le coppie selezionate
 
             if (selectedCards.length === 2) { //se l'array per il confronto presenta due carte
