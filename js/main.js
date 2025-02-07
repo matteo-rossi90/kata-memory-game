@@ -32,6 +32,8 @@ let countImg = 0
 
 //creare un array vuoto dove verrano inserite le coppie per il confronto
 let selectedCards = []
+
+//array dove verranno inserite tutte le carte giuste
 let rightCards = []
 
 //mescolare in ordine casuale le carte
