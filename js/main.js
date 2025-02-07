@@ -28,8 +28,6 @@ const modalText = document.getElementById('text')
 //creare un contatore per calcolare le coppie errate e impostarlo a 0
 let wrongImg = 0;
 
-let countImg = 0
-
 //creare un array vuoto dove verrano inserite le coppie per il confronto
 let selectedCards = []
 
