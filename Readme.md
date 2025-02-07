@@ -23,7 +23,7 @@ Questo piccolo progetto è stato realizzato attraverso HTML, CSS, JavaScript pur
 3) **Mostrare le immagini al click**. Le card sono state abilitate a mostrare le immagini nascoste al click del giocatore e a nascondere le immagini del retro, aggiungendo delle classi che mostrassero e nascondessero alternativamente gli elementi selezionati
 4) **Confrontare le immagini cliccate**. Una volta cliccate, le due immagini vengono confrontate: se corrispondono, restano scoperte, altrimenti si nascondono di nuovo dopo essersi mostrate brevemente
 5) **Conteggio degli errori**. Se il giocatore clicca su due carte che non corrispondono, il sistema segna un errore
-6) **Fine del gioco**. il gioco finisce quando tutte le carte sono state scoperte oppure se sono stati individuati più di 5 errori; un messaggio comunicherà al giocatore se ha vinto o ha perso
+6) **Fine del gioco**. il gioco finisce quando tutte le coppie di carte corrette sono state scoperte oppure se sono stati individuati più di 5 errori; un messaggio comunicherà al giocatore se ha vinto o ha perso
 
 La realizzazione di questo piccolo gioco è finalizzato a consolidare le competenze già acquisite in merito ad HTML, CSS, e JavaScript e a sperimentare nuove logiche o ragionamenti
 
