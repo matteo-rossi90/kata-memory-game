@@ -2,6 +2,8 @@
 
 L'applicazione consiste nel riprodurre un gioco molto popolare, in cui il giocatore deve trovare le coppie delle immagini ricordandosi della loro esatta posizione e senza fare troppi errori. E' molto usato per tenere allenata la memoria.
 
+
+
 **Regole del gioco:**
 
 - le card di gioco sono mescolate in maniera casuale a ogni caricamento di pagina (ogni gioco in pratica è sempre diverso)
@@ -9,7 +11,7 @@ L'applicazione consiste nel riprodurre un gioco molto popolare, in cui il giocat
 - clicca su una carta per scoprirla
 - ogni volta che una coppia di carte viene scoperta, controlla se sono uguali:
     - se lo sono, le carte restano scoperte
-    - se non lo so, le carte tornano a nascondersi
+    - se non lo sono, le carte tornano a nascondersi
 - c’è un counter per contare gli errori commessi
 - il gioco finisce quando tutte le carte sono state scoperte
 

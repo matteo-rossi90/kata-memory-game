@@ -80,7 +80,7 @@ for (let i = 0; i < sortedCards.length; i++) {
 
 }
 
-//funzione per confrontare due carte
+//funzione per confrontare due carte e stabilire se il giocatore ha vinto o no
 function checkMatch() {
     const [first, second] = selectedCards;
 
@@ -123,6 +123,7 @@ function checkMatch() {
     selectedCards = [] //svuotare l'array dopo il confronto; 
 }
 
+//funzione che permettere il caricamento della pagina
 function reloadGame(){
     window.location.reload()
 }
