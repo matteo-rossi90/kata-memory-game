@@ -2,6 +2,7 @@
 
 L'applicazione consiste nel riprodurre un gioco molto popolare, in cui il giocatore deve trovare le coppie delle immagini ricordandosi della loro esatta posizione e senza fare troppi errori. E' molto usato per tenere allenata la memoria.
 
+![Screenshot (177)](https://github.com/user-attachments/assets/3db3c377-18bc-4048-9a75-cc8178ecc545)
 
 
 **Regole del gioco:**
@@ -25,3 +26,9 @@ Questo piccolo progetto è stato realizzato attraverso HTML, CSS, JavaScript pur
 6) **fine del gioco**. il gioco finisce quando tutte le carte sono state scoperte oppure se sono stati individuati più di 5 errori; un messaggio comunicherà al giocatore se ha vinto o ha perso
 
 La realizzazione di questo piccolo gioco è finalizzato a consolidare le competenze già acquisite in merito ad HTML, CSS, e JavaScript e a sperimentare nuove logiche o ragionamenti
+
+Video dimostrativo:
+
+https://github.com/user-attachments/assets/49c713e4-a61c-4da2-a597-5dc41d5e71a9
+
+
